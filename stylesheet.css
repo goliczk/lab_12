@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size:24px;
+	color:#2454D7;
+}
+
+.listing {
+	
+	color:#35D9A4;
+	width: 500px;
+	list-style:none;
+}
+
+button {
+	border-radius:20px;
+	color:#000000;
+}
+
+input {
+	border-color:#0FF0FB;
+	width:100px;
+}
+.group {
+	align-content:center;
+	width:30%;
+	padding:10px;
+	border-width:thin;
+	border-color:#000000;
+	border-style:ridge;
+	margin-left:32%;
+	background-color:#02352F;
+}
+
+
+
+
+
+

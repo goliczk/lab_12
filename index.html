@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>To Do List</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<div class="group">
+<div ng-app="arrModule" ng-controller="arrController">	
+	<h1> To Do List:</h1>
+    	<input type="text" ng-model="todo" placeholder="Add Items">
+        <button ng-click="addingItems()" type="button">Add</button>
+        <input type="text" ng-model="filterList" placeholder="Search">
+	<ul>
+    	<li class="listing" ng-repeat="items in thingsToDo | filter:filterList"><input type="checkbox">{{items}}</li>
+    </ul>
+</div>
+</div>
+
+
+
+
+<script src="angular.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
